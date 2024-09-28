@@ -1,0 +1,59 @@
+.viewback {
+  background-color: #f0f0f0;
+  padding: 20px;
+  height: 100vh;
+  padding-top: 10%;
+  background-image: url("https://images.unsplash.com/photo-1557318041-1ce374d55ebf?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* backdrop-filter: blur(10px); */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.views {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  /* backdrop-filter: blur(10px); */
+}
+
+#view {
+  padding: 20px;
+}
+
+.admintable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.admintable th,
+.admintable td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.admintable th {
+  background-color: #b36e00;
+  color: #fff;
+}
+
+.admintable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.admintable tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.h2ad {
+  color: #333;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,60 @@
+.add-course-container-d {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(209, 65, 65, 0.2);
+    background: transparent;
+    backdrop-filter: blur(5px);
+    margin-top: 100px;
+  }
+  
+  .add-course-container-d h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-label-d {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #0f0e0e;
+  }
+  
+  .form-input-d {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-button-d {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .form-button-d:hover {
+    background-color: #0056b3;
+  }
+  .addimg-d{
+    background-image: url("https://assets-global.website-files.com/6209512878b45f39119ebfb5/64ad32adedf877300fb4ad03_travel%20bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  overflow-y: auto; /* Allow vertical scrolling */
+  }  
+  .movecourse-d{
+    padding-top: 100px;
+  }

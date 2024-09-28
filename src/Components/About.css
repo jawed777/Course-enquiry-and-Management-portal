@@ -1,0 +1,104 @@
+/* About.css */
+
+.bod-ab {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160vh;
+    background-image: url('https://images.pexels.com/photos/8112206/pexels-photo-8112206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+
+  }
+
+.about-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: rgba(225, 220, 220, 0.700);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* height: 100vh; */
+    
+  }
+  
+  .about-header {
+    background-color: #0d0e0eb2;
+    padding: 20px;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5em;
+  }
+  
+  .about-content {
+    margin-top: 20px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .about-content p {
+    margin-bottom: 20px;
+  }
+  
+  .about-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-content li {
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .about-content strong {
+    color: #252422d0;
+  }
+  
+  /* Additional styling for a more attractive look */
+  .about-content p:last-child {
+    font-style: italic;
+    color: #777;
+  }
+  
+  .about-content p:last-child::before {
+    content: '“';
+    font-size: 2em;
+    color: #3498db;
+    margin-right: 5px;
+  }
+  
+  .about-content p:last-child::after {
+    content: '”';
+    font-size: 2em;
+    color: #3498db;
+    margin-left: 5px;
+  }
+  
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+  }
+  
+  .grid-item {
+    width: 100%;
+    height: 90%;
+    border-radius: 5px;
+    overflow: hidden;
+  } 
+
+   
+.slider-boxx{
+  height: 300px;
+}

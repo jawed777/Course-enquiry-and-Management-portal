@@ -1,0 +1,95 @@
+.bod-log {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://assets-global.website-files.com/6209512878b45f39119ebfb5/64ad32adedf877300fb4ad03_travel%20bg.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-container {
+    width: 300px;
+    height: 300px;
+    
+  }
+  
+  .login-card {
+    background: rgba(225, 220, 220, 0.286); /* Adjust the opacity here */
+    box-shadow: 0 2px 10px rgba(233, 226, 226, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 350px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  label {
+    color: #170202;
+    margin-bottom: 8px;
+    border-radius: 200px;
+    padding-right: 180px;
+    
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #a7a1a13d;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgba(248, 248, 248, 0.316); /* Adjust the opacity here */
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2fab2f70;
+  }
+
+  .new{
+    padding-right: 90px;
+    font-size:smaller;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:solid;
+    color: #f3f1f1;
+  }
+
+  .link-text a{
+    text-decoration: underline;
+  }
+  
+  .icon{
+    width: 25px;
+    height: 25px;
+  }
+
+  .butt-user{
+    width: 130px;
+    padding-left: 10px;
+    margin-left: 60px;
+  }
